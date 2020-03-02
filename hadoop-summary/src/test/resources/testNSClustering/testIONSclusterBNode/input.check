@@ -1,0 +1,8 @@
+###
+{"explicit_content":["<http://d.com/a> <http://d.com/p> <http://d.com/#dog> .\n","<http://d.com/a> <http://d.com/p> _:bnode1 .\n","<http://d.com/a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d.com/type1> .\n"],"url":"url","domain":"d.com" }
+
+###
+{"explicit_content":["_:bnode2 <http://d.com/p> _:bnode1 .\n"],"url":"url","domain":"d.com" }
+
+###
+{"explicit_content":["_:bnode1 <http://d.com/name> \"grishka\" .\n"],"url":"url","domain":"d.com" }

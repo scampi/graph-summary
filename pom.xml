@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.sindice</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.0.12</version>
+    </parent>
+    <groupId>org.sindice.core</groupId>
+    <artifactId>analytics-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1.0-RC1</version>
+    <name>analytics-parent</name>
+
+    <modules>
+        <module>analytics-util</module>
+        <module>analytics-entity</module>
+        <module>analytics-core</module>
+        <module>basic-stats</module>
+        <module>hadoop-summary</module>
+        <module>analytics-benchmark</module>
+    </modules>
+
+    <scm>
+      <connection>scm:git:ssh://git@git.sindice.net:stephane/analytics.git</connection>
+      <developerConnection>scm:git:ssh://git@git.sindice.net:stephane/analytics.git</developerConnection>
+      <url>git:ssh://git@git.sindice.net:stephane/analytics.git</url>
+    </scm>
+
+    <properties>
+        <cascading.version>2.1.4</cascading.version>
+        <hadoop.version>1.0.3</hadoop.version>
+        <sesame.version>2.6.6</sesame.version>
+        <hbase.version>0.92.1</hbase.version>
+        <junit.version>4.10</junit.version>
+    </properties>
+
+    <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>2.1</version>
+            <executions>
+              <execution>
+                <phase>package</phase>
+                <goals>
+                  <goal>shade</goal>
+                </goals>
+                <configuration>
+                  <filters>
+                    <filter>
+                      <artifact>*:*</artifact>
+                      <excludes>
+                        <exclude>META-INF/*.SF</exclude>
+                        <exclude>META-INF/*.DSA</exclude>
+                        <exclude>META-INF/*.RSA</exclude>
+                      </excludes>
+                    </filter>
+                  </filters>
+                  <transformers>
+                    <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                      <resource>serializations</resource>
+                    </transformer>
+                  </transformers>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.jopt-simple</groupId>
+            <artifactId>jopt-simple</artifactId>
+            <version>4.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,32 @@
+###
+D
+---
+c1
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=2
+---
+p1=2
+p2=2
+---
+2
+###
+D
+---
+c2
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+type2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---
+p1=2
+---
+2
+###
+E
+---
+c3
+---
+type3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=3
+---
+p3=3
+---
+3

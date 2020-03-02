@@ -1,0 +1,21 @@
+###
+domain1.com
+---
+http://www.domain1.com/~type2
+---
+http://www.domain1.com/~type2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---
+http://www.PREDICATE.COM/#P3=1
+---
+1
+###
+domain1.com
+---
+http://www.domain1.com/~type1
+---
+http://www.domain1.com/~type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=2
+---
+http://www.predicate.com/#p1=2
+http://www.predicate.com/#p2=2
+---
+2

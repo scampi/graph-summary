@@ -1,0 +1,21 @@
+###
+D1
+---
+foaf:Person
+---
+foaf:Person http://www.w3.org/1999/02/22-rdf-syntax-ns#type=18
+---
+foaf:name=19
+foaf:knows=1
+---
+1
+###
+D2
+---
+foaf:Student
+---
+foaf:Student http://www.w3.org/1999/02/22-rdf-syntax-ns#type=5
+---
+foaf:age=10
+---
+1

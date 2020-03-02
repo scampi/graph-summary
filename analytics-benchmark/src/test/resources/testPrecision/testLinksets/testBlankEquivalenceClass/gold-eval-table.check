@@ -1,0 +1,31 @@
+###
+D
+---
+g1
+---
+###blank-equivalence-class###
+---
+1
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---
+p1=2
+p2=3
+---
+NULL
+---
+NULL
+###
+D
+---
+g2
+---
+c1
+---
+1
+---
+type2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---
+---
+type2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---

@@ -1,0 +1,14 @@
+\begin{table}
+  \centering
+  \begin{tabular}{lrrr}
+  \toprule
+  Dataset & Precision & food & play \\
+  \cmidrule{3-4}
+  \multirow{2}{*}{cat} & p1 & - & 0.00 \\
+ & p2 & - & 0.00 \\
+  \multirow{2}{*}{dog} & p1 & 0.78 & 0.00 \\
+ & p2 & 0.78 & 0.00 \\
+  \bottomrule
+  \end{tabular}
+  \caption{Connectivity precision}
+\end{table}

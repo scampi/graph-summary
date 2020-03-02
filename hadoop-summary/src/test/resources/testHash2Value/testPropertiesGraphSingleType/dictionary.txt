@@ -1,0 +1,3 @@
+D1	foaf:Person,foaf:Student	foaf:knows 1,foaf:name 19
+D2	"bla-bla",foaf:Student	foaf:age 10
+D3	foaf:Student,foaf:Teacher	foaf:age 10

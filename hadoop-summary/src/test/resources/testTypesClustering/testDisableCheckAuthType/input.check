@@ -1,0 +1,8 @@
+###
+domain1.com
+---
+http://www.domain2.com/~sub1
+---
+NULL
+---
+<http://www.domain2.com/~sub1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type1> .

@@ -1,0 +1,67 @@
+###
+domain1.com
+---
+http://www.domain1.com/~sub2
+---
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p1-1> "" .
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p3-1> "" .
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p4-1> "" .
+
+---
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p1> <http://www.domain1.com/~sub3> .
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p2> "literal" .
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p2> "literal2" .
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p2> <http://www.domain1.com/~sub1> .
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p3> "literal3" .
+<http://www.domain1.com/~sub2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~sub1> .
+
+---
+http://www.predicate.com/#p1-1
+http://www.predicate.com/#p4-1
+http://www.predicate.com/#p3-1
+http://www.predicate.com/#p1
+http://www.predicate.com/#p2
+http://www.predicate.com/#p3
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+###
+domain1.com
+---
+http://www.domain1.com/~sub1
+---
+<http://www.domain1.com/~sub1> <http://www.predicate.com/#p2-1> "" .
+
+---
+<http://www.domain1.com/~sub1> <http://www.predicate.com/#p1> <http://www.domain1.com/~sub2> .
+<http://www.domain1.com/~sub1> <http://www.predicate.com/#p1> <http://www.domain1.com/~sub5> .
+<http://www.domain1.com/~sub1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~sub2> .
+
+---
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.predicate.com/#p2-1
+http://www.predicate.com/#p1
+###
+domain1.com
+---
+http://www.domain1.com/~sub3
+---
+<http://www.domain1.com/~sub3> <http://www.predicate.com/#p1-1> "" .
+
+---
+<http://www.domain1.com/~sub3> <http://www.predicate.com/#p3> <http://www.domain1.com/~sub2> .
+
+---
+http://www.predicate.com/#p1-1
+http://www.predicate.com/#p3
+###
+domain1.com
+---
+http://www.domain1.com/~sub4
+---
+NULL
+---
+<http://www.domain1.com/~sub4> <http://www.predicate.com/#p1> <http://www.domain1.com/~sub2> .
+<http://www.domain1.com/~sub4> <http://www.predicate.com/#p4> <http://www.domain1.com/~sub2> .
+
+---
+http://www.predicate.com/#p1
+http://www.predicate.com/#p4

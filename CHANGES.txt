@@ -1,0 +1,170 @@
+======================= Release 0.1.0-RC1 25-Sep-2013 ======================
+
+New Features
+
+* [T-43] Add a script for running benchmark for the summary
+* [T-26] Add Counters to the Summary computation
+* [T-29] Extract statistics from the Hadoop jobs using the Cascading API
+* [T-52] Implement the clustering algorithms that consider incoming links
+* [T-62] Extract statistics from Riffle process
+* [GL-6] Implement an easy to use scheme for tests
+* [GL-13] Allow to configure the context URI of a summary graph
+* [GL-23] Add a Serialization mechanism for custom structures
+* [GL-7] Compute the precision of a summary
+* [GL-2] Implement the F-Bisimulation clustering
+* [GL-53] Add a package for computing statistics about a summary
+* [GL-62] Implement the clustering algorithms based on the object namespace, localname, and on the datatype
+* [GL-67] Add utility to split and compress text files
+* [GL-70] Add a job for computing statistics about the entities of a collection
+* [GL-73] Add Latex export for the precision evaluation of a graph summary
+* [GL-51] Create a framework to easily use a dictionary
+* [GL-104] Put the serialization token information in property files accessible through the ClassLoader#getResource
+* [GL-116] Add a datatypes statistics
+
+Improvements
+
+* [SND-2677] Update Analytics Jobs to Hadoop 1.0.3 and to Cascading 2.0.4
+* [SND-2687] Create a ClusterGenerator Interface
+* [SND-2697] Refactor the Data Graph Summary Test Framework
+* [SND-2688] Merge Property and Class Counts Flows of the Data Graph Summary
+* [SND-2708] Refactoring the parsing of the N-triples
+* [SND-2709] Refactoring the properties branch
+* [SND-2710] Create the Node-hash/CID dictionnary
+* [SND-2720] Change the way to stock the <SPO> tuple
+* [SND-2728] Put the document hash in the blank node
+* [SND-2711] Refactoring of the relation branch
+* [T-4] Review the management of class authority
+* [T-12] Add the domain of the document to the CID clustering function
+* [T-11] Remove the domain-text field from Json2ClusterHashFunction
+* [SND-2729] Correct Subject domain hash and object domain hash
+* [T-20] Refactor the RDF data parsing and the management of the Entity Description
+* [T-16] Improve the Analytics CLI
+* [T-57] Improve the expressivity of tests inputs
+* [T-19] Improve the API of the AnalyticsSubAssembly
+* [GL-3] Support arguments for AnalyticsSubAssembly
+* [GL-5] Update the test framework
+* [GL-11] Setup a single dataset summary scenario
+* [GL-19] Add a parameter to AnalyticsPipe that specifies the name of an incoming pipe
+* [GL-25] Remove IOException throws from ToBytesWritable
+* [GL-9] Improve the local name scheme of the summary URIs
+* [GL-26] Consider a more flexible graph summary URI scheme
+* [GL-27] Optimize the GraphAggregateBy step of the NodeFilterSummaryGraph assembly
+* [GL-30] Remove the TableNodeHashCIDGraph flow of the summary cascade
+* [GL-29] Reduce the size in bytes of the cluster ID
+* [GL-38] Improve the performance of the Dictionary flow
+* [GL-45] Use BytesStream instead of StringArray
+* [GL-50] Support the test of expected counter value
+* [GL-66] Set up traps for tuples that caused an exception
+* [GL-55] Improve the IO_PROPERTIES algorithm
+* [GL-68] Add incoming edges feature to the LN and NS clustering algorithms
+* [GL-74] Support in CheckScheme the definition of a field type directly from the file
+* [GL-71] Dump the analytics job configuration when saving the Hadoop counters
+* [GL-82] Support missing values of benchmark results when exporting
+* [GL-75] Add scripts for running benchmarks on the summary
+* [GL-10] Improve the Analytics* class annotations
+* [GL-89] Add a post-processing function in the test flow to sort fields
+* [GL-86] Put the predicates black list into the DistributedCache
+* [GL-88] Improve SubjectAggregate
+* [GL-91] Improve statement iteration for MapEntityDescription
+* [GL-49] Simplify the encoding of a class, its cardinality and its defining attribute
+* [GL-103] Make AnalyticsUri/Literal/BNode serializable
+* [GL-110] Add an EntityDescription factory
+* [GL-95] Improve the entity representation
+* [GL-112] Improve BytesStreamAggregateBy by using the tuple in tuple approach
+* [GL-109] Add a serialization for properties and types counts
+* [GL-84] Add export of the size and order of a summary
+* [GL-122] Update IOReadableCascadingTest to support Riflle processes
+* [GL-105] Improve the HFileScheme
+* [GL-127] Improve ConnectivityAssembly
+* [GL-130] PropertiesCountSerialization hits OOME
+
+Tasks
+
+* [T-13] Integrate the analytics-commons package from sparqled into the analytics
+* [T-21] Refactor and test the entire datagraph summary flow
+* [T-17] Remove the NXparser dependency from the Analytics
+* [T-14] Move the DataGraphSummaryVocab to the rdf package of hadoop-summary
+* [T-48] Remove the RDFDumps flow
+* [GL-17] Update the analytics version number in POM files
+* [GL-18] Update cascading to 2.1.4
+* [GL-63] Clean GetClusterGraph tests resources
+* [GL-69] Update the benchmark script
+* [GL-76] Move the graph summary benchmark related code to analytics-benchmark
+* [GL-114] Add documentation to the analytics-core module
+* [GL-118] Remove SequenceFilesIterator
+
+Bugs
+
+* [T-7] Encode/Decode Blanknode class
+* [T-23] Correct the SubjectAggregateBy
+* [T-44] BUG: Escape tab character in classes label
+* [GL-15] Correct bug with the RDF export of the relations
+* [GL-14] Correct issues with the single-dataset-summary.sh script
+* [GL-20] Add a check in TableNodeHashCIDGraph for wrong list CIDs
+* [GL-24] Hot fix: issue with unicode encoded characters
+* [GL-34] Correct the use of the DistributedCache to add the dictionary files
+* [GL-35] Correct dependency to sesame sail-repository
+* [GL-36] Dependency error on commons-io
+* [GL-41] Bad implementation of BytesStreamComparator
+* [GL-43] NullPointerException in BytesStreamComparator when an operand is null
+* [GL-44] NPE when RDFParser#getRDFDocument returns a null RDFDocument
+* [GL-54] Correct CatSequenceFile utility
+* [GL-52] Missing groupby for sorting the domain keys in the dictionary
+* [GL-40] Hit OOME in GetClusterGraph when processing large entities
+* [GL-60] Correct the Properties clustering algorithm
+* [GL-64] Correct the type label normalization
+* [GL-77] Update the F_BISIMULATION clustering algorithm to use the graph summary config
+* [GL-37] Set HFileLongKeyComparator by default in the GenerateDictionary flow
+* [GL-78] Add SummaryBaseOperation to cascading operation depending on some hadoop parameters
+* [GL-80] Overwrite #equals and #hashcode methods of Operations that have custom attributes
+* [GL-90] Correct the export of benchmark results when there are missing values/folder
+* [GL-99] Correct HFileScheme & optimize the RDFication flows 
+* [GL-98] Correct the SINGLE_TYPE RDF model
+* [GL-100] Correct the YAML configuration loader
+* [GL-101] Give priority to parameters from the YAML config file over the comand line
+* [GL-96] Add datatype support in the MapEntityDescription
+* [GL-106] Create empty test folders in analytics-benchmark
+* [GL-107] Correct the #compareTo method of BenchmarkResults
+* [GL-111] Correct the pipe branching in the Linksets SubAssembly
+* [GL-58] Correct the saving of stats from a Riffle flow
+* [GL-120] Correct TestNodeFilterSummaryGraph
+* [GL-124] Correct the setting of datatype in AnalyticsLiteral#getCopy
+* [GL-123] Update the configuration of Configured CLIs with the serialization classes
+* [GL-121] Remove BytesStream
+* [GL-113] Move EntityDescription to analytics-entity
+
+======================= Release 0.0.13 02-Oct-2012 =======================
+
+Bugs
+
+* [SND-2690] Analytics - Correct HFileDictionary
+* [SND-2694] Refactor Basic Stats Hadoop Jobs
+
+Improvements
+
+* [SND-2677] Update Analytics Jobs to Hadoop 1.0.3 and to Cascading 2.0.4
+* [GH-13] Split the AnalyticsVocab class into one class per vocabulary
+* [SND-2693] Analytics - Extend YAML Cascade Configuration Loader to any Jobs
+
+New Features
+
+* [SND-2692] Analytics - Export basic stats in RDF
+
+
+======================= Release 0.0.12 11-Apr-2012 =======================
+
+Bugs
+
+* [SND-2224] The topk of basic stats are wrongly extracted				
+* [SND-2230] Scientific notation in stat output
+
+Improvements
+
+* [SND-2227] Review output of class, predicate and namespace domain Stat
+* [SND-2231] triple-per-domain and triple-per-entity are inefficient
+* [SND-2235] Increase number of reduce tasks
+* [SND-2242] Reduce-side optimisation for shuffle phase
+	
+Tasks
+
+* [SND-2225] Update documentation and create README file

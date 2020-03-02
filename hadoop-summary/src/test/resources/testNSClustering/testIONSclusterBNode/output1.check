@@ -1,0 +1,29 @@
+###
+d.com
+---
+http://d.com/a
+---
+NULL
+---
+<http://d.com/a> <http://d.com/p> <http://d.com/#dog> .
+<http://d.com/a> <http://d.com/p> _:urlbnode1 .
+<http://d.com/a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d.com/type1> .
+
+###
+d.com
+---
+urlbnode2
+---
+NULL
+---
+_:urlbnode2 <http://d.com/p> _:urlbnode1 .
+
+###
+d.com
+---
+urlbnode1
+---
+_:urlbnode1 <:> <http://d.com/a> .
+
+---
+_:urlbnode1 <http://d.com/name> "grishka" .

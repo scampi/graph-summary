@@ -1,0 +1,15 @@
+###
+domain1.com
+---
+http://www.domain1.com/~type2
+http://www.domain1.com/~type1
+http://www.domain1.com/~type238
+---
+http://www.domain1.com/~type2 http://opengraph.org/schema/type=1
+http://www.domain1.com/~type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+http://www.domain1.com/~type238 http://dbpedia.org/ontology/type=1
+---
+http://www.predicate.com/#p1=1
+http://www.predicate.com/#p2=1
+---
+1

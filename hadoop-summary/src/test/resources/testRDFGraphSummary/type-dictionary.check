@@ -1,0 +1,16 @@
+###
+http://xmlns.com/foaf/0.1/Person
+---
+<http://xmlns.com/foaf/0.1/Person>
+###
+http://xmlns.com/foaf/0.1/Student
+---
+<http://xmlns.com/foaf/0.1/Student>
+###
+bla-bla
+---
+"bla-bla"
+###
+http://xmlns.com/foaf/0.1/Professor
+---
+<http://xmlns.com/foaf/0.1/Professor>

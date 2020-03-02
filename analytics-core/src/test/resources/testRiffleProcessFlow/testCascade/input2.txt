@@ -1,0 +1,2 @@
+domain13.com	subject13	url13
+domain23.com	subject23	url23

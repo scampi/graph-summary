@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sindice.core</groupId>
+        <artifactId>analytics-parent</artifactId>
+        <version>0.1.0-RC1</version>
+    </parent>
+
+    <artifactId>basic-stats</artifactId>
+    <packaging>jar</packaging>
+    <name>basic-stats</name>
+
+    <scm>
+        <connection>scm:svn:https://dev01.sindice.net/svn/di2/sindice/core/analytics/trunk/basic-stats</connection>
+        <developerConnection>scm:svn:https://dev01.sindice.net/svn/di2/sindice/core/analytics/trunk/basic-stats</developerConnection>
+        <url>https://dev01.sindice.net/svn/di2/sindice/core/analytics/trunk/basic-stats</url>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.sindice.core</groupId>
+            <artifactId>analytics-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.sindice.core</groupId>
+            <artifactId>analytics-core</artifactId>
+            <version>${project.version}</version>
+            <classifier>tests</classifier>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>cascading</groupId>
+            <artifactId>cascading-hadoop</artifactId>
+            <version>${cascading.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+    </dependencies>
+</project>

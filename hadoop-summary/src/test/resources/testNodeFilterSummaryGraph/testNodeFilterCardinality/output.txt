@@ -1,0 +1,16 @@
+<http://vocab.sindice.net/node2> <http://vocab.sindice.net/analytics#cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#long> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2> <http://vocab.sindice.net/analytics#global_id> <http://vocab.sindice.net/global3163368653914278013> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2> <http://vocab.sindice.net/analytics#label> <http://vocab.sindice.net/node2/label1> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2> <http://vocab.sindice.net/domain> "unipi.it" <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2> <http://vocab.sindice.net/domain_uri> <http://sindice.com/dataspace/default/domain/unipi.it> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2/label1> <http://vocab.sindice.net/analytics#label> <http://www.countries.eu/person> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2/label1> <http://vocab.sindice.net/analytics#rank1> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2/label1> <http://vocab.sindice.net/analytics#rank2> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2/label1> <http://vocab.sindice.net/analytics#type> <http://vocab.sindice.net/node2/label1/Type0> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2/label1/Type0> <http://vocab.sindice.net/analytics#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#long> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/node2/label1/Type0> <http://vocab.sindice.net/analytics#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/edge1/prov99/source2/target232323> <http://vocab.sindice.net/analytics#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#long> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/edge1/prov99/source2/target232323> <http://vocab.sindice.net/analytics#label> <http://www.di.unipi.it/#produce> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/edge1/prov99/source2/target232323> <http://vocab.sindice.net/analytics#publishedIn> <http://sindice.com/dataspace/default/domain/countries.eu> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/edge1/prov99/source2/target232323> <http://vocab.sindice.net/analytics#source> <http://vocab.sindice.net/noden3052267835564275684> <http://sindice.com/analytics> .
+<http://vocab.sindice.net/edge1/prov99/source2/target232323> <http://vocab.sindice.net/analytics#target> <http://vocab.sindice.net/noden2954621464525060859> <http://sindice.com/analytics> .

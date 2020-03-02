@@ -1,0 +1,42 @@
+###
+D
+---
+g1
+---
+c1
+---
+1
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+type3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---
+p1=5
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+type2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+type3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---
+p1=5
+p2=2
+p3=2
+###
+D
+---
+g2
+---
+c1
+---
+2
+---
+type2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=2
+---
+p2=2
+p3=2
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=2
+type2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=2
+type3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=2
+---
+p1=5
+p2=2
+p3=2

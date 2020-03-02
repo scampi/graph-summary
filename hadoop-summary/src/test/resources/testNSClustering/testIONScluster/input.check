@@ -1,0 +1,8 @@
+###
+<http://d.com/a> <http://d.com/p> <http://d.com/b> .
+<http://d.com/a> <http://d.com/p> <http://acme.com/b> .
+<http://d.com/a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d.com/type1> .
+
+###
+<http://d.com/b> <http://d.com/p> <http://d.com/c> .
+

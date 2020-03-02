@@ -1,0 +1,8 @@
+      1 bio2rdf.org	http://bio2rdf.org/ns/affymetrix#probeset 
+   1520 thelakersnation.com	http://www.w3.org/2006/vcard/ns#name 
+   1520 thelakersnation.com	http://www.w3.org/2006/vcard/ns#vcard 
+      1 unipi.it	http://www.countries.eu/beer 
+      1 unipi.it	http://www.countries.eu/beer http://www.countries.eu/drink 
+      1 unipi.it	http://www.countries.eu/person 
+     12 webaddict.co.za	http://xmlns.com/foaf/0.1/agent http://www.w3.org/2003/01/geo/wgs84_pos#spatialthing http://www.w3.org/2000/10/swap/pim/contact#socialentity http://www.w3.org/2000/10/swap/pim/contact#person  http://xmlns.com/foaf/0.1/person 
+      2 webaddict.co.za	http://xmlns.com/foaf/0.1/document 

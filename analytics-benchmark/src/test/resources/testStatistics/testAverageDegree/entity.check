@@ -1,0 +1,20 @@
+###
+d.com
+---
+http://d.com/s1
+---
+NULL
+---
+<http://d.com/s1> <http://d.com/p> <http://d.com/s2> .
+<http://d.com/s1> <http://d.com/p> "lit" .
+
+###
+d.com
+---
+http://d.com/s3
+---
+NULL
+---
+<http://d.com/s3> <http://d.com/p> <http://d.com/s4> .
+<http://d.com/s3> <http://d.com/p> <http://d.com/s5> .
+<http://d.com/s3> <http://d.com/p> <http://d.com/s2> .

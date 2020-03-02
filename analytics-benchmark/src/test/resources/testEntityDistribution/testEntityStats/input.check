@@ -1,0 +1,11 @@
+###
+d.com
+---
+http://d.com/a
+---
+NULL
+---
+<http://d.com/a> <http://d.com/p1> <http://d.com/b> .
+<http://d.com/a> <http://d.com/p2> <http://d.com/b> .
+<http://d.com/a> <http://d.com/p1> "lit" .
+<http://d.com/a> <http://d.com/p3> <http://d.com/c> .

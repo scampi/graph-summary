@@ -1,0 +1,53 @@
+###
+D2
+---
+C1
+---
+http://xmlns.com/foaf/0.1/Person http://ogp.me/ns#type=10|http://xmlns.com/foaf/0.1/type=2
+http://xmlns.com/foaf/0.1/Student http://opengraph.org/schema/type=23
+---
+http://xmlns.com/foaf/0.1/knows=1
+http://xmlns.com/foaf/0.1/name=19
+---
+2
+###
+D2
+---
+C2
+---
+bla-bla http://xmlns.com/foaf/0.1/type=10
+http://xmlns.com/foaf/0.1/Student http://purl.org/dc/terms/type=10
+---
+http://xmlns.com/foaf/0.1/age=10
+---
+3
+###
+D1
+---
+C3
+---
+http://xmlns.com/foaf/0.1/Professor http://ogp.me/ns#type=10|http://xmlns.com/foaf/0.1/type=1
+---
+http://xmlns.com/foaf/0.1/age=10
+---
+2
+###
+D2
+---
+C4
+---
+bla-bla http://ogp.me/ns#type=10
+http://xmlns.com/foaf/0.1/Professor http://xmlns.com/foaf/0.1/type=2
+---
+---
+1
+###
+D3
+---
+C5
+---
+bla-bla http://ogp.me/ns#type=10
+http://xmlns.com/foaf/0.1/Professor http://xmlns.com/foaf/0.1/type=2
+---
+---
+2

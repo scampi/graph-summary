@@ -1,0 +1,32 @@
+###
+D
+---
+c1
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=5
+---
+p1=5
+p2=2
+p3=2
+---
+3
+###
+D
+---
+c2
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=5
+---
+pp=14
+---
+6
+###
+D
+---
+c3
+---
+type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=5
+---
+toto=15
+---
+5

@@ -1,0 +1,44 @@
+org.apache.hadoop.mapred.FileInputFormat$Counter: {BYTES_READ: 0}
+org.apache.hadoop.mapred.JobInProgress$Counter: {TOTAL_LAUNCHED_REDUCES: 181, SLOTS_MILLIS_MAPS: 206619440,
+  FALLOW_SLOTS_MILLIS_REDUCES: 0, FALLOW_SLOTS_MILLIS_MAPS: 0, RACK_LOCAL_MAPS: 78,
+  TOTAL_LAUNCHED_MAPS: 1823, DATA_LOCAL_MAPS: 1745, SLOTS_MILLIS_REDUCES: 78474311}
+org.apache.hadoop.mapred.FileOutputFormat$Counter: {BYTES_WRITTEN: 25126873302}
+Analytics - Summary: {CLUSTERS: 1728478, TRIPLES: 57919838, RELATIONS: 9249828}
+ID: Data-Graph-Summary
+cascading.flow.SliceCounters: {Read_Duration: 31596932, Tuples_Written: 967933417,
+  Tuples_Read: 1332741774, Process_End_Time: 2478718201928542, Write_Duration: 36952022,
+  Process_Begin_Time: 2478718086963606}
+Analytics - Instance: {5000 < SubjectAggregatePartials - nb entities <= 10000: 8,
+  500 < SubjectAggregate - nb entities <= 1000: 187, PROPERTIES: 186386013, EFFECTIVE_TRIPLES: 233051608,
+  RELATIONS: 145045736, 0 < SubjectAggregate - nb entities <= 10: 60136435, 10 < SubjectAggregatePartials - nb entities <= 100: 552495,
+  100 < SubjectAggregatePartials - nb entities <= 500: 4716, TRIPLES: 237519728, ENTITIES: 65042837,
+  0 < SubjectAggregatePartials - nb entities <= 10: 121878814, CLASSES: 46665595,
+  10 < SubjectAggregate - nb entities <= 100: 4900618, 500 < SubjectAggregatePartials - nb entities <= 1000: 259,
+  1000 < SubjectAggregate - nb entities <= 5000: 37, 100 < SubjectAggregate - nb entities <= 500: 5560,
+  1000 < SubjectAggregatePartials - nb entities <= 5000: 116}
+cascading.pipe.assembly.AggregateBy$Flush: {Num_Keys_Flushed: 136707640}
+FileSystemCounters: {FILE_BYTES_READ: 49172061806, HDFS_BYTES_READ: 80904477960, FILE_BYTES_WRITTEN: 69607080328,
+  HDFS_BYTES_WRITTEN: 25126873302}
+Analytics - Job: {Time_RelationsGraphHash2ValueFunction: 687569, Tuples_Written_get-cluster-flow: 65042837,
+  Time_RDFPropertiesGraphFunction: 481425, Time_SubjectAggregatePartials: 1034532,
+  Time_SubjectAggregate: 2728869, Tuples_Written_properties-graph-h2v: 288687, Time_FilterClasses: 8631014,
+  Tuples_Read_properties-flow: 65042837, Time_StatementFunction: 27050385, Tuples_Read_cluster-generator: 65042837,
+  Tuples_Written_cluster-generator: 65042837, Tuples_Read_RDF-RelationsGraph-Summary: 9249828,
+  Tuples_Written_RDF-RelationsGraph-Summary: 46249140, Time_ClusterIDAggregate: 93970,
+  Tuples_Read_relations-graph-h2v: 9249828, Tuples_Read_properties-graph-h2v: 1728478,
+  Time_SPO2HashPropertiesFunction: 3848936, Tuples_Written_properties-flow: 1728478,
+  JOIN2: 105121899, JOIN1: 105121899, Time_RDFRelationsGraphFunction: 3676691, Time_CreateClusterIDFunction: 3261807,
+  Time_PropertiesGraphHash2ValueFunction: 855974, Tuples_Written_RDF-Metadata-Summary: 11670698,
+  Tuples_Read_relations-graph: 130085674, Tuples_Read_RDF-Metadata-Summary: 288687,
+  Time_SPO2HashInterclassFunction: 14975787, Tuples_Written_relations-graph: 9249828,
+  Time_ClusterIDAggregatePartials: 628256, Tuples_Written_relations-graph-h2v: 9249828,
+  Tuples_Read_get-cluster-flow: 237526926}
+org.apache.hadoop.mapred.Task$Counter: {MAP_OUTPUT_MATERIALIZED_BYTES: 24656356350,
+  MAP_INPUT_RECORDS: 772049734, REDUCE_SHUFFLE_BYTES: 24484592769, SPILLED_RECORDS: 1527136806,
+  MAP_OUTPUT_BYTES: 86421889187, COMMITTED_HEAP_BYTES: 582034522112, CPU_MILLISECONDS: 197872680,
+  MAP_INPUT_BYTES: 80753555298, SPLIT_RAW_BYTES: 562005, COMBINE_INPUT_RECORDS: 0,
+  REDUCE_INPUT_RECORDS: 560692040, REDUCE_INPUT_GROUPS: 282352552, COMBINE_OUTPUT_RECORDS: 0,
+  PHYSICAL_MEMORY_BYTES: 637703692288, REDUCE_OUTPUT_RECORDS: 246019248, VIRTUAL_MEMORY_BYTES: 9629274714112,
+  MAP_OUTPUT_RECORDS: 721914169}
+cascading.flow.StepCounters: {Tuples_Read: 772049734, Tuples_Written: 397314135}
+

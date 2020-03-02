@@ -1,0 +1,10 @@
+###
+D
+---
+http://www.domain1.com/~type1
+---
+http://www.domain1.com/~type1 http://purl.org/dc/terms/type=1
+---
+http://acme.org/produce=6 http://acme.org/beer=4 http://acme.org/cheese=1 http://acme.org/dontexist=1
+---
+1

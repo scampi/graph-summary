@@ -1,0 +1,7 @@
+---
+conf-name: default
+PreProcessing: O_EDGES_AGGREGATE
+---
+conf-name: toto
+key: value
+...

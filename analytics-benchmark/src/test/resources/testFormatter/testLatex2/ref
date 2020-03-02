@@ -1,0 +1,14 @@
+\begin{table}
+  \centering
+  \begin{tabular}{lrr}
+  \toprule
+  Dataset & Precision & grishka \\
+  \cmidrule{3-3}
+  \multirow{4}{*}{dog} & attribute - p1 & 0.46 \\
+ & attribute - p2 & 0.40 \\
+ & type - p1 & 0.46 \\
+ & type - p2 & 0.40 \\
+  \bottomrule
+  \end{tabular}
+  \caption{Connectivity precision}
+\end{table}

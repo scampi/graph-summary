@@ -1,0 +1,33 @@
+###
+domain1.com
+---
+http://www.domain1.com/~sub2
+---
+NULL
+---
+<http://www.domain1.com/~sub2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type1> .
+
+---
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+###
+domain1.com
+---
+http://www.domain1.com/~sub1
+---
+NULL
+---
+<http://www.domain1.com/~sub1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type1> .
+
+---
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+###
+domain1.com
+---
+http://www.domain1.com/~sub3
+---
+NULL
+---
+<http://www.domain1.com/~sub3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type2> .
+
+---
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type

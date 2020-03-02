@@ -1,0 +1,10 @@
+###
+d.com
+---
+http://d.com/a
+---
+NULL
+---
+<http://d.com/a> <http://d.com/p> "grishka"^^<http://d.com/b#dog> .
+<http://d.com/a> <http://d.com/p> "felec"^^<http://acme.com/b#cat> .
+<http://d.com/a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "type1" .

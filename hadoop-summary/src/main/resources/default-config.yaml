@@ -1,0 +1,25 @@
+---
+default:
+    - hadoop.tmp.dir: hadoop-tmp/tmp-${user.name}
+    - mapred.reduce.tasks: 25
+    # Set higher threshold for less spilling
+    - cascading.spill.list.threshold: 50000
+    - cascading.aggregateby.threshold: 50000
+    # JAVA opts
+    - mapred.map.child.java.opts: -server -XX:+UseParallelGC -XX:ParallelGCThreads=2 -XX:+UseParallelOldGC -Xmx512m
+    - mapred.reduce.child.java.opts: -server -XX:+UseParallelGC -XX:ParallelGCThreads=2 -XX:+UseParallelOldGC -Xmx512m
+    # reduce-side optimisations for the shuffle phase, See jira SND-2242
+    - io.sort.factor: 25
+    - mapred.inmem.merge.threshold: 0
+    - mapred.job.shuffle.input.buffer.percent: 0.5
+    # Compression
+    - mapred.compress.map.output: true
+    - mapred.map.output.compression.type: BLOCK
+    - mapred.map.output.compression.codec: org.apache.hadoop.io.compress.SnappyCodec
+    - mapred.output.compress: true
+    - mapred.output.compression.type: BLOCK
+    - mapred.output.compression.codec: org.apache.hadoop.io.compress.SnappyCodec
+    # CoGroup spills compression
+    - cascading.spill.compress: true
+    - cascading.spill.codecs: org.apache.hadoop.io.compress.SnappyCodec,org.apache.hadoop.io.compress.GzipCodec
+...

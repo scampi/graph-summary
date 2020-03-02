@@ -1,0 +1,12 @@
+\begin{table}
+  \centering
+  \begin{tabular}{lrr}
+  \toprule
+  Dataset & Precision & grishka\$wajka \\
+  \cmidrule{3-3}
+  \multirow{2}{*}{cat\#dog} & p\_1 & 0.46 \\
+ & p\_2 & 0.40 \\
+  \bottomrule
+  \end{tabular}
+  \caption{Connectivity precision}
+\end{table}

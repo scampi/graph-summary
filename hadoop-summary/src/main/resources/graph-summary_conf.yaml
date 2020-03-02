@@ -1,0 +1,25 @@
+---
+conf-name: default
+PreProcessing: O_EDGES_AGGREGATE
+PropertiesProcessing: DEFAULT
+---
+conf-name: ioa
+ClusteringAlgorithm: IO_PROPERTIES
+PreProcessing: IO_EDGES_AGGREGATE
+---
+conf-name: ioat
+ClusteringAlgorithm: IO_PROPERTIES_CLASSES
+PreProcessing: IO_EDGES_AGGREGATE
+---
+conf-name: f-bisimulation
+ClusteringAlgorithm: F_BISIMULATION
+PreProcessing: IO_EDGES_AGGREGATE
+---
+conf-name: io-namespace
+ClusteringAlgorithm: IO_NAMESPACE
+PreProcessing: IO_OBJECT_EDGES_AGGREGATE
+---
+conf-name: single-type
+PropertiesProcessing: SINGLE_TYPE
+ClusteringAlgorithm: SINGLE_TYPE
+...

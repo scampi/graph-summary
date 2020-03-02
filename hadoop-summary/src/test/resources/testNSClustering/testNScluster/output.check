@@ -1,0 +1,16 @@
+###
+d.com
+---
+http://d.com/a
+---
+NULL
+---
+<http://d.com/a> <http://d.com/p> <http://d.com/b> .
+<http://d.com/a> <http://d.com/p> <http://acme.com/b> .
+<http://d.com/a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "type1" .
+
+---
+http://d.com/p
+type1
+http://acme.com/
+http://d.com/

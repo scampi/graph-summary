@@ -1,0 +1,2 @@
+{"explicit_content":["<http://www.domain1.com/~sub1> <http://www.predicate.com/#p1> <http://www.domain1.com/~sub2> .\n"],"format":"RDF","url":"http://domain1.com/url:stuff","domain":"www.domain1.com"},
+{"explicit_content":["<http://www.domain2.com/~sub1> <http://www.predicate.com/#p1> <http://www.domain1.com/~sub2> .\n"],"format":"RDF","url":"http://domain2.com/url:stuff","domain":"www.domain2.com"},

@@ -1,0 +1,10 @@
+###
+domain1.com
+---
+http://www.domain1.com/~type1
+---
+http://www.domain1.com/~type1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type=1
+---
+http://acme.org/produce=3 http://acme.org/beer=1 http://acme.org/cheese=1
+---
+1

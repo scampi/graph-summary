@@ -1,0 +1,12 @@
+---
+conf-name: default
+PreProcessing: O_EDGES_AGGREGATE
+---
+conf-name: ioa
+ClusteringAlgorithm: IO_PROPERTIES
+PreProcessing: IO_EDGES_AGGREGATE
+---
+conf-name: ioat
+ClusteringAlgorithm: IO_PROPERTIES_CLASSES
+PreProcessing: IO_EDGES_AGGREGATE
+...

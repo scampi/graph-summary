@@ -1,0 +1,22 @@
+###
+D
+---
+s1
+---
+NULL
+---
+<http://s1.com> <http://p.com> <http://o.com> .
+
+---
+g1
+###
+D
+---
+s2
+---
+NULL
+---
+<http://s2.com> <http://p.com> <http://o.com> .
+
+---
+g2

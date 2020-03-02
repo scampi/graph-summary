@@ -1,0 +1,6 @@
+Domain1	SourceTarget1	class1	predicate1	Target	class1	1
+Domain1	Source	class1	predicate1	Source	class2	1000
+Domain1	SourceTarget1	class1	predicate2	Target	class1	2
+Domain1	SourceTarget2	class1	predicate3	SourceTarget1	class3	3
+Domain1	SourceTarget1	class1	predicate1	SourceTarget2	class1	3
+Domain1	Source	class5	predicate2	SourceTarget2	class3	4

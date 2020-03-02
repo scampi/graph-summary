@@ -1,0 +1,38 @@
+###
+domain1.com
+---
+http://www.domain1.com/~sub2
+---
+NULL
+---
+<http://www.domain1.com/~sub2> <http://www.predicate.com/#p1> <http://www.domain1.com/~object2> .
+<http://www.domain1.com/~sub2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type1> .
+
+---
+http://www.domain1.com/~type1
+###
+domain1.com
+---
+http://www.domain1.com/~sub1
+---
+NULL
+---
+<http://www.domain1.com/~sub1> <http://www.predicate.com/#p1> <http://www.domain1.com/~object1> .
+<http://www.domain1.com/~sub1> <http://www.predicate.com/#p2> "literal" .
+<http://www.domain1.com/~sub1> <http://www.predicate.com/#p2> "literal2" .
+<http://www.domain1.com/~sub1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type1> .
+
+---
+http://www.domain1.com/~type1
+###
+domain1.com
+---
+http://www.domain1.com/~sub3
+---
+NULL
+---
+<http://www.domain1.com/~sub3> <http://www.PREDICATE.COM/#P3> <http://www.domain1.com/~object1> .
+<http://www.domain1.com/~sub3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type2> .
+
+---
+http://www.domain1.com/~type2

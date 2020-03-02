@@ -1,0 +1,4 @@
+<http://rdf.freebase.com/ns/american_football.football_player.footballdb_id> <http://rdf.freebase.com/ns/type.property.unique> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://rdf.freebase.com/ns/american_football.football_player.footballdb_id> <http://rdf.freebase.com/ns/type.property.expected_type> <http://rdf.freebase.com/ns/type.enumeration> .
+<http://rdf.freebase.com/ns/american_football.football_player.footballdb_id> <http://rdf.freebase.com/ns/type.object.name> "footballdb ID"@en .
+<http://rdf.freebase.com/ns/g.11vk05cyx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/measurement_unit.dated_percentage> .

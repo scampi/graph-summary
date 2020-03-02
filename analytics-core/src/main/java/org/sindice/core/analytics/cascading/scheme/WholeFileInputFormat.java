@@ -1,0 +1,38 @@
+/**
+ * Copyright (c) 2013 National University of Ireland, Galway. All Rights Reserved.
+ */
+package org.sindice.core.analytics.cascading.scheme;
+
+import java.io.IOException;
+
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileSplit;
+import org.apache.hadoop.mapred.InputFormat;
+import org.apache.hadoop.mapred.InputSplit;
+import org.apache.hadoop.mapred.JobConf;
+import org.apache.hadoop.mapred.RecordReader;
+import org.apache.hadoop.mapred.Reporter;
+
+import cascading.tuple.Tuple;
+
+/**
+ * An {@link InputFormat} for plain text files. The whole content of the file is the value of a {@link Tuple}'s field.
+ */
+public class WholeFileInputFormat
+extends FileInputFormat<Text, Text> {
+
+  @Override
+  protected boolean isSplitable(FileSystem fs, Path filename) {
+    return false;
+  }
+
+  @Override
+  public RecordReader<Text, Text> getRecordReader(InputSplit split, JobConf job, Reporter reporter)
+  throws IOException {
+    return new WholeFileRecordReader((FileSplit) split, job);
+  }
+
+}

@@ -1,0 +1,6 @@
+domain1.com	subject1	url1
+domain2.com	subject2	url2
+domain1.com	subject1	url1
+domain2.com	subject2	url2
+domain1.com	subject1	url1
+domain2.com	subject2	url2

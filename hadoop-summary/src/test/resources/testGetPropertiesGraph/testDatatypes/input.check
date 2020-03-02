@@ -1,0 +1,14 @@
+###
+domain1.com
+---
+http://www.domain1.com/~sub1
+---
+NULL
+---
+<http://www.domain1.com/~sub1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.domain1.com/~type1> .
+<http://www.domain1.com/~sub1> <http://acme.org/produce> "guinness"^^<http://acme.org/beer> .
+<http://www.domain1.com/~sub1> <http://acme.org/produce> "cheddar"^^<http://acme.org/cheese> .
+<http://www.domain1.com/~sub1> <http://acme.org/produce> "chowder" .
+
+---
+http://www.domain1.com/~type1

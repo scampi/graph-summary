@@ -1,0 +1,42 @@
+###
+ > org.sindice.graphsummary.iotransformation.Hash64Type
+dog
+---
+ > org.sindice.graphsummary.iotransformation.SortedListToHash128Type
+c1
+---
+ > org.sindice.graphsummary.iotransformation.SortedListToHash128Type
+g2
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+2
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+3
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+1
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+5
+###
+ > org.sindice.graphsummary.iotransformation.Hash64Type
+dog
+---
+ > org.sindice.graphsummary.iotransformation.SortedListToHash128Type
+c1
+---
+ > org.sindice.graphsummary.iotransformation.SortedListToHash128Type
+g1
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+2
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+1
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+3
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+4

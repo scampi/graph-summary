@@ -1,0 +1,2 @@
+apples	stephane	30
+oranges	stephane	30

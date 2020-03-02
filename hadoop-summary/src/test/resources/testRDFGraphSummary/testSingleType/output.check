@@ -1,0 +1,22 @@
+###
+D1
+---
+http://xmlns.com/foaf/0.1/Person
+---
+http://xmlns.com/foaf/0.1/Person http://ogp.me/ns#type=1|http://xmlns.com/foaf/0.1/type=1
+---
+http://xmlns.com/foaf/0.1/knows=1
+http://xmlns.com/foaf/0.1/name=1
+---
+1
+###
+D1
+---
+http://xmlns.com/foaf/0.1/Student
+---
+http://xmlns.com/foaf/0.1/Student http://opengraph.org/schema/type=1
+---
+http://xmlns.com/foaf/0.1/knows=1
+http://xmlns.com/foaf/0.1/name=1
+---
+1

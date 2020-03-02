@@ -1,0 +1,14 @@
+\begin{table}
+  \centering
+  \begin{tabular}{lrrr}
+  \toprule
+  Dataset & Volume & food & play \\
+  \cmidrule{3-4}
+  \multirow{2}{*}{cat} & order & 3 & 0 \\
+ & size & 1 & 4 \\
+  \multirow{2}{*}{dog} & order & 3 & 0 \\
+ & size & 1 & 4 \\
+  \bottomrule
+  \end{tabular}
+  \caption{Volume of a graph summary}
+\end{table}

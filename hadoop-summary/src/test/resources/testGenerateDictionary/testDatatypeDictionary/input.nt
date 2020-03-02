@@ -1,0 +1,3 @@
+_:bn1 <http://acme.org/born> "00.00.0000"^^<http://date.com> .
+_:bn1 <http://acme.org/death> "" .
+

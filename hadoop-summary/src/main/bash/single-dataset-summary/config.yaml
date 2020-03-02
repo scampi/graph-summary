@@ -1,0 +1,37 @@
+---
+default:
+        # The set of class attributes, i.e., predicates that defines
+        # an object as a class
+        - class-attributes:
+                - http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+                - http://opengraphprotocol.org/schema/type
+                - http://opengraph.org/schema/type
+                - http://ogp.me/ns#type
+
+        - hadoop.tmp.dir: hadoop-tmp/tmp-${user.name}
+        - mapred.reduce.tasks: 25
+        - cascading.aggregateby.threshold: 50000
+        - cascading.cogroup.spill.threshold: 50000
+        - mapred.map.child.java.opts: -server -XX:+UseParallelGC -XX:ParallelGCThreads=2 -XX:+UseParallelOldGC -Xmx512m
+        - mapred.reduce.child.java.opts: -server -XX:+UseParallelGC -XX:ParallelGCThreads=2 -XX:+UseParallelOldGC -Xmx512m
+        # reduce-side optimisations for the shuffle phase, See jira SND-2242
+        - io.sort.factor: 25
+        - mapred.inmem.merge.threshold: 0
+        - mapred.job.shuffle.input.buffer.percent: 0.5
+        # Compression
+        - mapred.compress.map.output: true
+        - mapred.map.output.compression.type: BLOCK
+        - mapred.map.output.compression.codec: org.apache.hadoop.io.compress.GzipCodec
+        - mapred.output.compress: true
+        - mapred.output.compression.type: BLOCK
+        - mapred.output.compression.codec: org.apache.hadoop.io.compress.GzipCodec
+        # CoGroup spills compression
+        - cascading.cogroup.spill.compress: true
+        - cascading.cogroup.spill.codecs: org.apache.hadoop.io.compress.GzipCodec
+        - mapred.job.priority: VERY_HIGH
+dictionary:
+        - io.sort.factor: 10
+        - mapred.inmem.merge.threshold: 50
+        - hbase.hfileoutputformat.keycomparator: org.sindice.core.analytics.cascading.scheme.HFileLongKeyComparator
+        - hfile.compression: gz
+...

@@ -1,0 +1,17 @@
+###
+b3kat.de
+---
+b3katbnode1
+---
+NULL
+---
+_:b3katbnode1 <http://www.w3.org/2002/07/owl#sameAs> <http://lod.b3kat.de/isbn/3921846366\u003E980\u003E> .
+
+###
+b3kat.de
+---
+http://lod.b3kat.de/isbn/3921846366>980>
+---
+NULL
+---
+<http://lod.b3kat.de/isbn/3921846366\u003E980\u003E> <http://www.w3.org/2002/07/owl#sameAs> <http://lod.b3kat.de/title/BV020820449> .

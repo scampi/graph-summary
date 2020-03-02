@@ -1,0 +1,4 @@
+This is head1	This is sink1	line1
+This is head1	This is sink1	line2
+This is head2	This is sink2	line1
+This is head2	This is sink2	line2

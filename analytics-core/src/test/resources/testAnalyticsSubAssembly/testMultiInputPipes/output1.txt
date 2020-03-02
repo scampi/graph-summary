@@ -1,0 +1,2 @@
+This is sink1	line1
+This is sink1	line2

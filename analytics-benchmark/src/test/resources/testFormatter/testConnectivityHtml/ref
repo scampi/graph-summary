@@ -1,0 +1,8 @@
+<table border="1" width="100%">
+  <tr><th>Dataset</th><th>Precision</th><th>grishka</th></tr>
+  <tr><td rowspan="4">dog</td><td>attribute - p1</td><td>0.46</td></tr>
+<tr><td>attribute - p2</td><td>0.40</td></tr>
+<tr><td>type - p1</td><td>0.46</td></tr>
+<tr><td>type - p2</td><td>0.40</td></tr>
+  <caption>Connectivity precision</caption>
+</table>

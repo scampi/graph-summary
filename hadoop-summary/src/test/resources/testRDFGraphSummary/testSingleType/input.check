@@ -1,0 +1,30 @@
+###
+D1
+---
+http://www.domain1.com/~sub1
+---
+NULL
+---
+<http://www.domain1.com/~sub1> <http://ogp.me/ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.domain1.com/~sub1> <http://xmlns.com/foaf/0.1/type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.domain1.com/~sub1> <http://opengraph.org/schema/type> <http://xmlns.com/foaf/0.1/Student> .
+<http://www.domain1.com/~sub1> <http://xmlns.com/foaf/0.1/knows> "stephane" .
+<http://www.domain1.com/~sub1> <http://xmlns.com/foaf/0.1/name> "grishka" .
+
+---
+http://xmlns.com/foaf/0.1/Person
+###
+D1
+---
+http://www.domain1.com/~sub1
+---
+NULL
+---
+<http://www.domain1.com/~sub1> <http://ogp.me/ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.domain1.com/~sub1> <http://xmlns.com/foaf/0.1/type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.domain1.com/~sub1> <http://opengraph.org/schema/type> <http://xmlns.com/foaf/0.1/Student> .
+<http://www.domain1.com/~sub1> <http://xmlns.com/foaf/0.1/knows> "stephane" .
+<http://www.domain1.com/~sub1> <http://xmlns.com/foaf/0.1/name> "grishka" .
+
+---
+http://xmlns.com/foaf/0.1/Student

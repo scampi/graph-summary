@@ -1,0 +1,15 @@
+###
+d.com
+---
+http://d.com/a
+---
+{
+   "triples" : 4,
+   "http://d.com/p2" : 1,
+   "http://d.com/p1" : 2,
+   "http://d.com/p3" : 1,
+   "objects" : [
+      1,
+      2
+   ]
+}

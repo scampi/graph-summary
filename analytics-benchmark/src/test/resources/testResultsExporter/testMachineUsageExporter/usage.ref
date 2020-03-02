@@ -1,0 +1,13 @@
+\begin{table}
+  \centering
+  \begin{tabular}{lrr}
+  \toprule
+  Dataset & Usage & grishka \\
+  \cmidrule{3-3}
+  \multirow{3}{*}{dog} & cpu (ms) & 187872680.00 +- 14142135.62 \\
+ & io (Gb) & 104.10 +- 9.22 \\
+ & memory (Mb) & 5368494.71 +- 5394796.61 \\
+  \bottomrule
+  \end{tabular}
+  \caption{Machine usage}
+\end{table}

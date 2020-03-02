@@ -1,0 +1,14 @@
+\begin{table}
+  \centering
+  \begin{tabular}{lrr}
+  \toprule
+  Dataset & Precision & grishka \\
+  \cmidrule{3-3}
+  \multirow{4}{*}{dog} & attribute - p1 & 0.30 \\
+ & attribute - p2 & 0.31 \\
+ & type - p1 & 0.53 \\
+ & type - p2 & 0.50 \\
+  \bottomrule
+  \end{tabular}
+  \caption{Schema precision}
+\end{table}

@@ -1,0 +1,9 @@
+###
+ > org.sindice.graphsummary.iotransformation.Hash64Type
+cat
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+3
+---
+ > org.sindice.core.analytics.testHelper.iotransformation.LongType
+1

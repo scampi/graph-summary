@@ -1,0 +1,2 @@
+###
+{"explicit_content":["_:bnode1 <http://www.w3.org/2002/07/owl#sameAs> <http://lod.b3kat.de/isbn/3921846366\\u003E980\\u003E> .\n","<http://lod.b3kat.de/isbn/3921846366\\u003E980\\u003E> <http://www.w3.org/2002/07/owl#sameAs> <http://lod.b3kat.de/title/BV020820449> .\n"], "url" : "b3kat" , "domain" : "b3kat.de" }

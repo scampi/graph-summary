@@ -1,0 +1,10 @@
+eyesonbrazil.com	http://www.w3.org/2006/vcard/ns#VCard 	http://www.w3.org/2006/vcard/ns#n	eyesonbrazil.com	http://www.w3.org/2006/vcard/ns#Name 	12
+moneyconciousness.com	http://xmlns.com/foaf/0.1/Person 	http://vocab.sindice.com/xfn#mePage	moneyconciousness.com	http://xmlns.com/foaf/0.1/Document 	123
+moneyconciousness.com	http://xmlns.com/foaf/0.1/Person 	http://vocab.sindice.com/xfn#friend	moneyconciousness.com	http://xmlns.com/foaf/0.1/Person 	123
+bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Person 	http://vocab.sindice.com/xfn#colleague	bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Person 	730
+bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Person 	http://vocab.sindice.com/xfn#met	bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Person 	730
+bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Person 	http://vocab.sindice.com/xfn#colleague	bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Person 	365
+bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Person 	http://vocab.sindice.com/xfn#mePage	bessergehtsimmer.at	http://xmlns.com/foaf/0.1/Document 	365
+metadataregistry.org	http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq http://www.w3.org/2000/01/rdf-schema#Container 	http://www.w3.org/1999/02/22-rdf-syntax-ns#_3	metadataregistry.org	http://purl.org/rss/1.0/item 	1
+metadataregistry.org	http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq http://www.w3.org/2000/01/rdf-schema#Container 	http://www.w3.org/1999/02/22-rdf-syntax-ns#_1	metadataregistry.org	http://purl.org/rss/1.0/item 	1
+metadataregistry.org	http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq http://www.w3.org/2000/01/rdf-schema#Container 	http://www.w3.org/1999/02/22-rdf-syntax-ns#_9	metadataregistry.org	http://purl.org/rss/1.0/item 	1

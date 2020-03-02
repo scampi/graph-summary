@@ -1,0 +1,69 @@
+###
+acme.org
+---
+http://acme.org/E1
+---
+NULL
+---
+<http://acme.org/E1> <http://acme.org/p1> <http://acme.org/E2> .
+
+###
+acme.org
+---
+http://acme.org/E2
+---
+<http://acme.org/E2> <http://acme.org/p1-1> "" .
+
+---
+<http://acme.org/E2> <http://acme.org/p2> <http://acme.org/E4> .
+
+###
+acme.org
+---
+http://acme.org/E3
+---
+NULL
+---
+<http://acme.org/E3> <http://acme.org/p2> <http://acme.org/E5> .
+
+###
+acme.org
+---
+http://acme.org/E4
+---
+<http://acme.org/E4> <http://acme.org/p2-1> "" .
+
+---
+<http://acme.org/E4> <http://acme.org/p3> <http://acme.org/E6> .
+<http://acme.org/E4> <http://acme.org/plit> "lit-e4" .
+
+###
+acme.org
+---
+http://acme.org/E5
+---
+<http://acme.org/E5> <http://acme.org/p2-1> "" .
+
+---
+<http://acme.org/E5> <http://acme.org/p3> <http://acme.org/E7> .
+<http://acme.org/E5> <http://acme.org/plit> "lit-e5" .
+
+###
+acme.org
+---
+http://acme.org/E6
+---
+<http://acme.org/E6> <http://acme.org/p3-1> "" .
+
+---
+<http://acme.org/E6> <http://acme.org/p4> "aaa" .
+
+###
+acme.org
+---
+http://acme.org/E7
+---
+<http://acme.org/E7> <http://acme.org/p3-1> "" .
+
+---
+<http://acme.org/E7> <http://acme.org/p5> <http://acme.org/E-not-here> .
