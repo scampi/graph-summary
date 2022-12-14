@@ -70,7 +70,7 @@
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
-            <version>1.9</version>
+            <version>1.32</version>
         </dependency>
 
         <!-- Query Parser and RDF dependencies -->
